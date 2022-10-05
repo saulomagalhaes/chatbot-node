@@ -1,0 +1,32 @@
+{
+  "name": "chatbot-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts --respawn --transpileOnly --ignore-watch node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulomagalhaes/chatbot-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulomagalhaes/chatbot-node/issues"
+  },
+  "homepage": "https://github.com/saulomagalhaes/chatbot-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.1",
+    "@types/socket.io": "^3.0.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  }
+}
